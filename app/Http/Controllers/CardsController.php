@@ -160,7 +160,6 @@ class CardsController extends Controller
            
             $user->chance_percentage = $time;
             $user->save();
-            
         }
         return redirect()->action('CardsController@index');
     }
