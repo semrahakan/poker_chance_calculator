@@ -9,7 +9,7 @@ install composer from https://getcomposer.org/download/
 install mysql 'brew install mysql', 'brew tap homebrew/services', 'brew services start mysql', 'brew services list' and to check 'mysql -V' as explained from https://gist.github.com/nrollr/3f57fc15ded7dddddcc4e82fe137b58e
 
 install laravel ' composer global require "laravel/installer" ' from https://laravel.com/docs/5.7
-I used 'composer create-project --prefer-dist laravel/laravel poker_chance_calculator' to setup this project.
+I used 'composer create-project --prefer-dist laravel/laravel poker_chance_calculator' to setup this project. However this command creates a new laravel project so it will be better to use 'composer global require "laravel/installer"' to install Laravel.
 
 Replace the .env file with .env.example. We need to do this since .env file is under .gitignore. Laravel needs configuration files under .env file.
 
