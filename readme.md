@@ -14,13 +14,14 @@ I used 'composer create-project --prefer-dist laravel/laravel poker_chance_calcu
 Replace the .env file with .env.example. We need to do this since .env file is under .gitignore. Laravel needs configuration files under .env file.
 
 'php artisan migrate' run this command to populate database tables.
+
 'php artisan serve' => this command produces Laravel development server started: <http://127.0.0.1:8000>
 After this you will be abled to see the project on browser.
 
 Environment Versions:
 PHP 7.1.21 - Laravel Framework 5.7.3 - mySQL 5.7.23
 
-## To RUN TEST 
+## TO RUN TEST 
 
 vendor/bin/phpunit
 
